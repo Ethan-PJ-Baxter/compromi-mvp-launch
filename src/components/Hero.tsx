@@ -57,8 +57,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Set your fitness goals, place your wager, and let AI verify your workouts. 
-              Miss your commitment? Your stake goes to charity.
+              Set your fitness goals, create your compro, and let AI verify your workouts. 
+              Miss your commitment? Your compro goes to charity.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -99,7 +99,7 @@ const Hero = () => {
                     <div className="w-20 h-5 bg-foreground/20 rounded-full" />
                   </div>
                   
-                  <img src={appScreenshot} alt="Compromi App - Track your fitness wagers" className="w-72 sm:w-80 h-auto" />
+                  <img src={appScreenshot} alt="Compromi App - Track your fitness compros" className="w-72 sm:w-80 h-auto" />
                 </div>
               </div>
             </div>

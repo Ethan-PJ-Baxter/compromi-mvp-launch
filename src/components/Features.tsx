@@ -8,8 +8,8 @@ const features = [{
   description: "Choose your workout frequency, session duration, and commitment period. Make it personal to your fitness journey."
 }, {
   icon: Wallet,
-  title: "Place Your Wager",
-  description: "Put real money on your goals. Stakes range from £5 to £50+. You only pay if you don't follow through."
+  title: "Set Your Compro",
+  description: "Put real money on your goals. Compros range from £5 to £50+. You only pay if you don't follow through."
 }, {
   icon: Camera,
   title: "AI Verification",
@@ -90,7 +90,7 @@ const Features = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full opacity-0 group-hover:opacity-50 transition-opacity duration-500" />
               <div className="relative phone-mockup bg-card rounded-[2rem] p-2 border border-border/50 transform lg:-rotate-6 group-hover:rotate-0 transition-transform duration-500">
-                <img src={appScreenshot2} alt="Create wager screen" className="w-56 h-auto rounded-[1.5rem]" />
+                <img src={appScreenshot2} alt="Create compro screen" className="w-56 h-auto rounded-[1.5rem]" />
               </div>
             </div>
 

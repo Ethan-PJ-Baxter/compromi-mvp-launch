@@ -10,14 +10,14 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Compromi - Bet on Your Fitness Goals</title>
-        <meta name="description" content="Turn your fitness goals into unbreakable commitments. Set your workout frequency, place your wager, and let AI verify your progress. Compromi - bet on yourself." />
-        <meta name="keywords" content="fitness app, workout tracker, fitness accountability, fitness wager, gym motivation" />
+        <title>Compromi - Commit to Your Fitness Goals</title>
+        <meta name="description" content="Turn your fitness goals into unbreakable commitments. Set your workout frequency, create your compro, and let AI verify your progress. Compromi - commit to yourself." />
+        <meta name="keywords" content="fitness app, workout tracker, fitness accountability, fitness commitment, gym motivation" />
         <link rel="canonical" href="https://compromi.app" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Compromi - Bet on Your Fitness Goals" />
-        <meta property="og:description" content="Turn your fitness goals into unbreakable commitments. Set your workout frequency, place your wager, and let AI verify your progress." />
+        <meta property="og:title" content="Compromi - Commit to Your Fitness Goals" />
+        <meta property="og:description" content="Turn your fitness goals into unbreakable commitments. Set your workout frequency, create your compro, and let AI verify your progress." />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}

@@ -73,24 +73,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Social proof */}
-            <motion.div initial={{
-            opacity: 0
-          }} animate={{
-            opacity: 1
-          }} transition={{
-            delay: 0.6,
-            duration: 0.8
-          }} className="mt-10 flex items-center gap-4 justify-center lg:justify-start">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map(i => <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-primary/80 to-primary/40 border-2 border-background flex items-center justify-center text-xs font-bold text-primary-foreground">
-                    {String.fromCharCode(64 + i)}
-                  </div>)}
-              </div>
-              <p className="text-sm text-muted-foreground">
-                <span className="text-foreground font-semibold">100+</span> early adopters
-              </p>
-            </motion.div>
           </motion.div>
 
           {/* Right: Phone mockup */}

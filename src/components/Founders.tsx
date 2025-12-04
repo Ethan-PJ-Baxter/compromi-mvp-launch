@@ -4,7 +4,7 @@ import { Linkedin, Mail } from "lucide-react";
 const founders = [
   {
     name: "Ollie Sharpe",
-    role: "Co-Founder & Engineering Lead",
+    role: "Co-Founder & Business Lead",
     email: "ollie.sharpe@compromi.app",
     linkedin: "https://www.linkedin.com/in/ollie-sharpe-2ab8b0216/",
     initial: "OS"
@@ -18,7 +18,7 @@ const founders = [
   },
   {
     name: "Callum Abrames",
-    role: "Co-Founder",
+    role: "Co-Founder & Marketing Lead",
     email: "callum.abrames@compromi.app",
     linkedin: "https://www.linkedin.com/in/callum-abrames-4886b6282",
     initial: "CA"
@@ -59,7 +59,7 @@ const Founders = () => {
               <div className="card-gradient p-8 rounded-2xl border border-border/50 hover:border-primary/30 transition-all duration-300 group">
                 {/* Avatar */}
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground font-heading font-bold text-xl group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-16 h-16 min-w-16 rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground font-heading font-bold text-xl group-hover:scale-110 transition-transform duration-300">
                     {founder.initial}
                   </div>
                   <div>

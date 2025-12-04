@@ -11,7 +11,7 @@ const founders = [
   },
   {
     name: "Ethan Baxter",
-    role: "Co-Founder & Software Developer",
+    role: "Co-Founder & Technical Lead",
     email: "ethan.baxter@compromi.app",
     linkedin: "https://www.linkedin.com/in/ethan-baxter-aa890a314/",
     initial: "EB"

@@ -15,6 +15,13 @@ const founders = [
     email: "ethan.baxter@compromi.app",
     linkedin: "https://www.linkedin.com/in/ethan-baxter-aa890a314/",
     initial: "EB"
+  },
+  {
+    name: "Callum Abrames",
+    role: "Co-Founder",
+    email: "callum.abrames@compromi.app",
+    linkedin: "https://www.linkedin.com/in/callum-abrames-4886b6282",
+    initial: "CA"
   }
 ];
 
@@ -40,7 +47,7 @@ const Founders = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {founders.map((founder, index) => (
             <motion.div
               key={founder.name}

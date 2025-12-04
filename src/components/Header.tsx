@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
 
 const Header = () => {
   return (
@@ -14,7 +13,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <img src={logo} alt="Compromi logo" className="w-9 h-9 group-hover:scale-105 transition-transform" />
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center group-hover:scale-105 transition-transform">
+              <span className="font-heading font-bold text-primary-foreground text-lg">C</span>
+            </div>
             <span className="font-heading font-bold text-xl text-foreground tracking-tight">
               Compromi
             </span>

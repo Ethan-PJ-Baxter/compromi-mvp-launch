@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <img src={logo} alt="Compromi logo" className="h-10 w-auto group-hover:scale-105 transition-transform" />
+            <img src={logo} alt="Compromi logo" className="h-20 w-auto group-hover:scale-105 transition-transform" />
           </a>
 
           {/* CTA */}

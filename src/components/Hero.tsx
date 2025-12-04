@@ -56,10 +56,7 @@ const Hero = () => {
               <span className="text-gradient-primary">Yourself</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Set your fitness goals, create your compro, and let AI verify your workouts. 
-              Miss your commitment? Your compro goes to charity.
-            </p>
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">Set your fitness goals, create your compro, and let AI verify your workouts. We donate from every missed commitment.</p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button variant="hero" size="xl" onClick={scrollToNewsletter}>

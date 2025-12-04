@@ -1,5 +1,3 @@
-import logo from "@/assets/logo.png";
-
 const Footer = () => {
   return (
     <footer className="py-8 bg-card border-t border-border/50">
@@ -7,7 +5,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Compromi logo" className="w-8 h-8" />
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
+              <span className="font-heading font-bold text-primary-foreground">C</span>
+            </div>
             <span className="font-heading font-semibold text-foreground">
               Compromi
             </span>
